@@ -28,7 +28,7 @@ public class NumbersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
-        // Create a list of words
+        // List of numbers converted from english to miwok language
         ArrayList<word> words = new ArrayList<word>();
         words.add(new word("one", "lutti"));
         words.add(new word("two", "otiiko"));
